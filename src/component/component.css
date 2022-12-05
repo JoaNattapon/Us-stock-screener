@@ -6,6 +6,9 @@ body {
     background-color: rgb(228, 228, 228);
     width: 100vw;
 }
+
+/* ---------------------Start of Header.js ----------------------- */
+
 .header {
     height: 200px;
     background-image: url(https://pikwizard.com/photos/architecture-buildings-chicago-city--52c3d0e7459b951d81ecd25ff9420335-m.jpg);
@@ -19,8 +22,49 @@ body {
     position: absolute;
     right: 13px;
     bottom: 0;
+    width: 100%;
 }
-/* ---------------------End of Header.js ----------------------- */
+
+/* ------------ Respondsive design ------------- */
+
+@media(max-width: 909px){
+
+    .header {
+        height: 120px;
+        background-position: 0px 200px;
+    }
+    .searchtap {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 15px;   
+    }
+    .searchbtn {
+        margin-top: 0;
+    }
+    .news-template {
+        max-width: 700px;
+    }
+    .news-template h1 {
+        font-size: 1.5em;
+    }
+}
+@media(max-width: 600px){
+
+    .header {
+        height: 80px;
+        background-position: 0px 170px;
+    }
+    .header h1 {
+        font-size: 1.1em;
+        right: 5px;
+    }
+    .searchbtn {
+        margin-top: 0;
+    }
+    .news-template {
+        max-width: 85%;
+    }
+}
 
 /* ---------------------Start of News.js ----------------------- */
 
@@ -34,8 +78,6 @@ body {
     margin: 20px 0px 32px 0px;
     
 }
-
-
 
 
 
@@ -54,7 +96,7 @@ body {
     margin-bottom: 27px;
 }
   
-.searchBtn {
+.searchbtn {
     margin-left: 10px;
     margin-top: 12px;
     margin-right: 15px;
@@ -94,26 +136,32 @@ body {
 
 
 .news-template {
+    display: inline-block;
     background-color: aliceblue;
     margin-bottom: 55px;
     border-radius: 35px;
-    width: 60%;
+    max-width: 1165px;
     margin: 35px auto;
 }
 .news-template p {
-    width: 600px;
-    /* text-align: center; */
+    width: 100%;
+    object-fit: contain;
     margin: 30px auto;
     font-size: 1.2em;
     text-align: left;
     padding-bottom: 50px;
 }
 .news-template h1 {
-    width: 800px;
+    width: 100%;
+    object-fit: contain;
     margin: 0 auto 30px auto;
     text-align: left;
     padding: 45px 0 25px 0;
-    /* text-indent: -50px; */
+}
+.news-template img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
 /* ---------------------Start of Closeprice.js ---------------------- */
@@ -121,6 +169,14 @@ body {
     margin-top: 70px;
 }
 
+/* --------------------- Stocklist hardcode ---------------------- */
+.green {
+    color: rgb(13, 179, 13);
+    
+}
+.red {
+    color: red;
+}
 
 /* ---------------------Start of Error.js ---------------------- */
 

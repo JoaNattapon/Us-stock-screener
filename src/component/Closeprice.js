@@ -39,7 +39,7 @@ const Closeprice = () => {
 
                 <input className="submitInput" type="text" placeholder="Ticker input" 
                 value={ticker} onChange={(e) => setTicker(e.target.value.toUpperCase())} />
-                <button className="searchBtn" onClick={() => getFinance()}>Seach</button>
+                <button className="searchbtn" onClick={() => getFinance()}>Seach</button>
 
                 <Link to='/' className="switchgreenbtn">
                     Switch to News Search
