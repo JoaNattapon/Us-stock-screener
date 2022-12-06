@@ -15,7 +15,7 @@ const Topgainer = () => {
             <div className="showgainer">
                 <h3>{stock.symbol}</h3>
                 <p>{stock.name}</p>
-                <p>+ {stock.changesPercentage} %</p>
+                <p><span>+ {stock.changesPercentage} %</span></p>
             </div>
         )
     })

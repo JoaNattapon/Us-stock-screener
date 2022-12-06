@@ -130,7 +130,13 @@ body {
     display: grid;
     grid-template-columns: auto auto auto;
     margin: 40px auto;
-    
+    border: solid rgb(29, 162, 245) 0.2em;
+    border-radius: 18px;
+    padding: 13px 0;
+}
+.showgainer span {
+    color: rgb(1, 166, 70);
+    font-size: larger;
 }
 
 /* ---------------------Start of Closeprice.js ---------------------- */
