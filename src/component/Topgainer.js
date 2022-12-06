@@ -11,11 +11,12 @@ const Topgainer = () => {
     
 
     const allTopGainer = data.map((stock,i) => {
+        let newPercentage = (Math.round(stock.changesPercentage * 100) / 100).toFixed(2);
         return(
             <div className="showgainer">
                 <h3>{stock.symbol}</h3>
                 <p>{stock.name}</p>
-                <p><span>+ {stock.changesPercentage} %</span></p>
+                <p><span>+ {newPercentage} %</span></p>
             </div>
         )
     })
