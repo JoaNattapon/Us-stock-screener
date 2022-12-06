@@ -31,7 +31,6 @@ const Closeprice = () => {
     }
 
 
-
     return (
         <div className="news">
             <h1>Find close price of stock</h1>

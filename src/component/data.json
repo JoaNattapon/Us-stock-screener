@@ -1,0 +1,212 @@
+[
+    {
+    "symbol": "MTC",
+    "name": "MMTec, Inc.",
+    "change": 0.5,
+    "price": 1.5,
+    "changesPercentage": 50
+    },
+    {
+    "symbol": "DBGI",
+    "name": "Digital Brands Group, Inc.",
+    "change": 1.4,
+    "price": 5.15,
+    "changesPercentage": 37.333336
+    },
+    {
+    "symbol": "EH",
+    "name": "EHang Holdings Limited",
+    "change": 1.96,
+    "price": 7.68,
+    "changesPercentage": 34.265736
+    },
+    {
+    "symbol": "ANEB",
+    "name": "Anebulo Pharmaceuticals, Inc.",
+    "change": 0.74,
+    "price": 3.39,
+    "changesPercentage": 27.924528
+    },
+    {
+    "symbol": "MSC",
+    "name": "Studio City International Holdings Limited",
+    "change": 0.654,
+    "price": 3.2889,
+    "changesPercentage": 24.820667
+    },
+    {
+    "symbol": "SHPH",
+    "name": "Shuttle Pharmaceuticals Holdings, Inc.",
+    "change": 0.59,
+    "price": 3,
+    "changesPercentage": 24.481323
+    },
+    {
+    "symbol": "AERC",
+    "name": "AeroClean Technologies, Inc.",
+    "change": 0.72,
+    "price": 4.13,
+    "changesPercentage": 21.11437
+    },
+    {
+    "symbol": "CTM",
+    "name": "Castellum, Inc.",
+    "change": 0.195,
+    "price": 1.16,
+    "changesPercentage": 20.207253
+    },
+    {
+    "symbol": "YMTX",
+    "name": "Yumanity Therapeutics, Inc.",
+    "change": 0.33,
+    "price": 2.05,
+    "changesPercentage": 19.186043
+    },
+    {
+    "symbol": "INTZ",
+    "name": "Intrusion Inc.",
+    "change": 0.55,
+    "price": 3.55,
+    "changesPercentage": 18.333332
+    },
+    {
+    "symbol": "ONCT",
+    "name": "Oncternal Therapeutics, Inc.",
+    "change": 0.1682,
+    "price": 1.1,
+    "changesPercentage": 18.051085
+    },
+    {
+    "symbol": "IOVA",
+    "name": "Iovance Biotherapeutics, Inc.",
+    "change": 1.19,
+    "price": 8.03,
+    "changesPercentage": 17.397654
+    },
+    {
+    "symbol": "ZEPP",
+    "name": "Zepp Health Corporation",
+    "change": 0.23,
+    "price": 1.57,
+    "changesPercentage": 17.164179
+    },
+    {
+    "symbol": "STCN",
+    "name": "Steel Connect, Inc.",
+    "change": 0.18,
+    "price": 1.31,
+    "changesPercentage": 15.929198
+    },
+    {
+    "symbol": "NA",
+    "name": "Nano Labs Ltd",
+    "change": 0.17,
+    "price": 1.25,
+    "changesPercentage": 15.740736
+    },
+    {
+    "symbol": "INAB",
+    "name": "IN8bio, Inc.",
+    "change": 0.33,
+    "price": 2.44,
+    "changesPercentage": 15.639819
+    },
+    {
+    "symbol": "AAMC",
+    "name": "Altisource Asset Management Corporation",
+    "change": 2.9,
+    "price": 21.9,
+    "changesPercentage": 15.263157
+    },
+    {
+    "symbol": "TXMD",
+    "name": "TherapeuticsMD, Inc.",
+    "change": 0.67,
+    "price": 5.12,
+    "changesPercentage": 15.056183
+    },
+    {
+    "symbol": "UTMD",
+    "name": "Utah Medical Products, Inc.",
+    "change": 12.98,
+    "price": 101.88,
+    "changesPercentage": 14.60067
+    },
+    {
+    "symbol": "AINC",
+    "name": "Ashford Inc.",
+    "change": 2.0755,
+    "price": 16.3804,
+    "changesPercentage": 14.50901
+    },
+    {
+    "symbol": "TROO",
+    "name": "TROOPS, Inc.",
+    "change": 0.27,
+    "price": 2.15,
+    "changesPercentage": 14.361708
+    },
+    {
+    "symbol": "YGMZ",
+    "name": "MingZhu Logistics Holdings Limited",
+    "change": 0.38,
+    "price": 3.08,
+    "changesPercentage": 14.074069
+    },
+    {
+    "symbol": "QBTS",
+    "name": "D-Wave Quantum Inc.",
+    "change": 0.3,
+    "price": 2.45,
+    "changesPercentage": 13.953486
+    },
+    {
+    "symbol": "WDH",
+    "name": "Waterdrop Inc.",
+    "change": 0.22,
+    "price": 1.83,
+    "changesPercentage": 13.6645975
+    },
+    {
+    "symbol": "MSPR",
+    "name": "MSP Recovery, Inc.",
+    "change": 0.15,
+    "price": 1.25,
+    "changesPercentage": 13.636361
+    },
+    {
+    "symbol": "FTEK",
+    "name": "Fuel Tech, Inc.",
+    "change": 0.19,
+    "price": 1.63,
+    "changesPercentage": 13.19444
+    },
+    {
+    "symbol": "AGTI",
+    "name": "Agiliti, Inc.",
+    "change": 2.29,
+    "price": 19.72,
+    "changesPercentage": 13.138262
+    },
+    {
+    "symbol": "CIA",
+    "name": "Citizens, Inc.",
+    "change": 0.34,
+    "price": 3.07,
+    "changesPercentage": 12.454209
+    },
+    {
+    "symbol": "SONX",
+    "name": "Sonendo, Inc.",
+    "change": 0.29,
+    "price": 2.63,
+    "changesPercentage": 12.393171
+    },
+    {
+    "symbol": "FRGE",
+    "name": "Forge Global Holdings, Inc.",
+    "change": 0.17,
+    "price": 1.55,
+    "changesPercentage": 12.318838
+    }
+    ]

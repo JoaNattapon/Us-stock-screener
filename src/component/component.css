@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -23,47 +24,6 @@ body {
     right: 13px;
     bottom: 0;
     width: 100%;
-}
-
-/* ------------ Respondsive design ------------- */
-
-@media(max-width: 909px){
-
-    .header {
-        height: 120px;
-        background-position: 0px 200px;
-    }
-    .searchtap {
-        display: grid;
-        grid-template-columns: auto;
-        gap: 15px;   
-    }
-    .searchbtn {
-        margin-top: 0;
-    }
-    .news-template {
-        max-width: 700px;
-    }
-    .news-template h1 {
-        font-size: 1.5em;
-    }
-}
-@media(max-width: 600px){
-
-    .header {
-        height: 80px;
-        background-position: 0px 170px;
-    }
-    .header h1 {
-        font-size: 1.1em;
-        right: 5px;
-    }
-    .searchbtn {
-        margin-top: 0;
-    }
-    .news-template {
-        max-width: 85%;
-    }
 }
 
 /* ---------------------Start of News.js ----------------------- */
@@ -164,10 +124,22 @@ body {
     object-fit: contain;
 }
 
+/* --------------------- Start of Topgainer.js ---------------------- */
+.showgainer {
+    width: 50%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 40px auto;
+    
+}
+
 /* ---------------------Start of Closeprice.js ---------------------- */
 .closeprice {
     margin-top: 70px;
 }
+
+
+
 
 /* --------------------- Stocklist hardcode ---------------------- */
 .green {
@@ -190,4 +162,57 @@ body {
 
 .error p {
     margin-top: 30px;
+}
+
+/* ------------ Respondsive design ------------- */
+
+@media(max-width: 909px){
+
+    .header {
+        height: 120px;
+        background-position: 0px 200px;
+    }
+    .searchtap {
+        display: grid;
+        grid-template-columns: auto;
+        
+        gap: 15px;   
+    }
+    .searchbtn {
+        margin-top: 0;
+    }
+    .news-template {
+        max-width: 700px;
+    }
+    .news-template h1 {
+        font-size: 1.5em;
+    }
+    .showgainer {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+    }
+}
+@media(max-width: 600px){
+
+    .header {
+        height: 80px;
+        background-position: 0px 170px;
+    }
+    .header h1 {
+        font-size: 1.1em;
+        right: 5px;
+    }
+    .searchbtn {
+        margin-top: 0;
+    }
+    .news-template {
+        max-width: 85%;
+    }
+    .showgainer {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+    }
+    
 }

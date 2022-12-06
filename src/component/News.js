@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import './component.css';
 import { BrowserRouter, Routes, Route, Link, Navigation } from 'react-router-dom';
 import axios from "axios";
+import Topgainer from "./Topgainer";
 
 
 const News = () => {
@@ -55,6 +56,11 @@ const News = () => {
             <div key={1}>
                {allNews} 
             </div>
+            
+            <div>
+                {<Topgainer />}
+            </div>
+            
             
         </div>
     )
