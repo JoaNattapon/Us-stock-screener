@@ -1,70 +1,18 @@
-# Getting Started with Create React App
+# Us Stock Screener
+# Landing page user interface
+![image](https://user-images.githubusercontent.com/101511565/205797413-3b197e81-0078-435a-802a-ad559ad5f345.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tool used
+  REACT - CSS
+  
+# Installation Guide
+Normally you don't need any installation to use this application because I already deployed this project via Netlify. Thus, you can go directly to the link to play around with it -> https://638dfc9a3acec71e434db3dc--steady-sable-adb3eb.netlify.app/
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# User Story
+Once you get into main page you will see input field and search button the main feature for the landing page is you are require to put the ticker name of any Us stock you know and then click on <search> button. After that the news relate to that stock will pop up below search tap and from there you can read the detail about the news. Additionally, next to the search button you can notice blue button called <switch to find stock price> if you click on that it will link you to new url which will allow you to search for last price of any stock you want to know. After all, what I do suggest the user to be prepare for the better user experience is to at least research for ticker of any stock you wish to search because Apple inc. stock is obviously did't use <apple> or <Apple> for their stock symbol but <AAPL> is the way to go. So, please get youself familiar with the stock symbol first before play our app and I know this pain point could be improve in the application later on.
+  
+# Wire Frame
+  https://wireframe.cc/x2o4bm
+  
+# What I've learnt from the project
+  React is very useful javascript library it help you build an application that contain a lot of reuseable components a lot more easy and also you need to have at least a basic understanding of pure Javascript and Css before build any React app especially when you need to work with an API that is when you need to recall all kind of javascript method to get data from API. In conclusion, I think React is lovely javascript library and I'll keep learning it until I get a good grasp. 
